@@ -1,6 +1,6 @@
 # Chatbot
-A chatbot used for searching the required information of a stock
-By commmunicating with the chatbot, users can acquire the desired information about the given stock.
+A chatbot used for searching the required real-time information of a stock is presented. Its framework is based on `Rasa_NLU` with `"spacy_sklearn"` as its foundation. Pre-defined sentences and phrases are trained to identify `intents` from natural language related to stock information inquiry. By implementing `slot filling`, `finite state machine` and `regular expression`, users can acquire the desired information about the given stock by employing dialogues.
+
 
 First, the user need to activate the chatbot by greeting or asking for help.
 
